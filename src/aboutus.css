@@ -1,0 +1,299 @@
+.cont-fluid{
+    width: 100%;
+}
+.cont{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    /* justify-content: center; */
+}
+.center-text{
+    height: 100%;
+    width: 100%;
+}
+.content{
+    width: 100% !important;
+    height: 738px !important;
+    text-transform: uppercase;
+}
+
+.text .h1-p1{
+    font-size: 56px !important;
+    line-height: 1em !important;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 3px rgb(0 0 0 / 30%);
+}
+.text .h1-p2{
+    font-size: 80px !important;
+    line-height: 82px !important;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 3px rgb(0 0 0 / 30%);
+}
+.content .btn{
+    height: 45px;
+    width: 250px;
+    text-align: center;
+    color: white;
+    background-color: #d54d4d;
+    border: solid 2px #d54d4d;
+}
+.content .btn:hover{
+    color: white;
+    background-color: rgb(255, 90, 95);
+    font-weight: bold;
+}
+.bg-image2{
+    padding: 0px 350px;
+}
+.bg-image2 .btn{
+    height: 45px;
+    width: 200px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    border: solid 2px #fff;
+}
+.bg-image2 .btn:hover{
+    color: black;
+    background-color: #fff;
+    font-weight: 800;
+}
+.icon-1{
+    background-image: url("./Images/partners_92f6e55d-4ebb-4f3c-8d1c-cf04b0163a99.svg");
+    background-repeat: no-repeat;
+}
+.icon-2{
+    background-image: url("./Images/earth_340aad01-edd5-4423-a148-ad06962b067e.svg");
+    background-repeat: no-repeat;
+}
+.icon-3{
+    background-image: url("./Images/trees_8c046a36-bcf6-45d1-bf77-7d6e68e773bb.svg");
+    background-repeat: no-repeat;
+}
+.counts {
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  .counts .count-box {
+    display: inline-block;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+  }
+  .counts .count-box i {
+    display: inline-block;
+    width: 125px;
+    height: 125px;
+  }
+  .counts .count-box div {
+    font-size: 40px;
+    display: block;
+    font-weight: 700;
+    line-height: 40px;
+  }
+  .counts .count-box span {
+    font-size: 40px;
+    display: block;
+    font-weight: 700;
+    line-height: 40px;
+  }
+  .counts .count-box h4 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    line-height: 1.5;
+    color: #333333;
+    display: block;
+    letter-spacing: 2px;
+    font-size: 21px;
+    padding: 7px 0px;
+  }
+
+  .impact{
+    background-image: url("./Images/yearlyimpact-1642795680030.svg");
+    height: 32vw;
+    width: 99.1vw;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+
+@media only screen and (min-width: 483px) {
+    .cont{
+        width: 100%;
+    }
+    .bg-image1{
+        width: 483px stretch-none !important;
+        height: 738px;
+        background-repeat: no-repeat;
+    }
+    .title-bar{
+        width: 483px stretch-none !important;
+        height: 670px !important;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+    }
+    .text .h1-p1{
+        font-size: 55px !important;
+        line-height: 1em !important;
+    }
+    .text .h1-p2{
+        font-size: 70px !important;
+        line-height: 82px !important;
+    }
+    .text .h2-p1{
+        display: none;
+    }
+    .plant-tree{
+        display: none !important;
+    }
+  }
+  @media(min-width: 576px) {
+    .cont{
+        width: 540px !important;
+    }
+    
+    .bg-image1{
+        width: 576px stretch-none !important;
+        height: 598px !important;
+        background-repeat: no-repeat;
+    }
+    .title-bar{
+        width: 576px stretch-none !important;
+        height: 598px !important;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+    }
+    .text .h1-p1{
+        font-size: 56px !important;
+        line-height: 1em !important;
+    }
+    .text .h1-p2{
+        font-size: 80px !important;
+        line-height: 82px !important;
+    }
+    .text .h2-p1{
+        display: block;
+        font-size: 22px;
+    }
+    .plant-tree{
+        display: none !important;
+    }
+  }
+  @media(min-width: 768px) {
+    .cont{
+        width: 720px !important;
+    }
+    
+    .bg-image1{
+        width: 100% stretch-none !important;
+        height: auto !important;
+        background-repeat: no-repeat;
+    }
+    .title-bar{
+        width: 768px stretch-none !important;
+        height: 662px !important;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+    }
+    .text .h1-p1{
+        font-size: 56px !important;
+        line-height: 1em !important;
+    }
+    .text .h1-p2{
+        font-size: 80px !important;
+        line-height: 82px !important;
+    }
+    .plant-tree{
+        display: none !important;
+    }
+  }
+  @media(min-width: 992px) {
+    .cont{
+        width: 960px !important;
+    }
+    
+    .bg-image1{
+        width: 100% stretch-none !important;
+        height: 790px !important;
+        background-repeat: no-repeat;
+    }
+    .title-bar{
+        width: 100% stretch-none !important;
+        height: 790px !important;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+    }
+    .text .h1-p1{
+        font-size: 56px !important;
+        line-height: 1em !important;
+    }
+    .text .h1-p2{
+        font-size: 80px !important;
+        line-height: 82px !important;
+    }
+  }
+  @media(min-width: 1200px) {
+    .cont{
+        width: 1140px !important;
+    }
+    .bg-image1{
+        width: 100% stretch-none !important;
+        height: 100% !important;
+        background-repeat: no-repeat;
+    }
+    .title-bar{
+        width: 1200px stretch-none !important;
+        height: 790px !important;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+    }
+    .text .h1-p1{
+        font-size: 56px !important;
+        line-height: 1em !important;
+    }
+    .text .h1-p2{
+        font-size: 80px !important;
+        line-height: 82px !important;
+    }
+  }
+  @media(min-width: 1400px) {
+    .cont{
+        width: 1320px !important;
+    }
+    .bg-image1{
+        width: 100% stretch-none !important;
+        height: 150% !important;
+        background-repeat: no-repeat;
+    }
+    .title-bar{
+        width: 100% !important;
+        height: 738px !important;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+    }
+    .text .h1-p1{
+        font-size: 56px !important;
+        line-height: 1em !important;
+    }
+    .text .h1-p2{
+        font-size: 80px !important;
+        line-height: 82px !important;
+    }
+    .bg-image2{
+        background-image: url("./Images/pf-25587980--andrewcoelhoaL7SA1ASVdQunsplash.webp");
+        background-position: center center;
+        background-size: cover;
+        width: 100%;
+        height: 103px;
+        overflow: hidden;
+    }
+}
