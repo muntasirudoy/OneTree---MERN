@@ -14,7 +14,18 @@
 .content{
     width: 100% !important;
     height: 738px !important;
+    overflow: hidden;
     text-transform: uppercase;
+    
+}
+.title-bar{
+    background-image: url(./Images/forestandmountains-1633031326824.png);
+    background-position: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 738px;
+    overflow: hidden;
 }
 
 .text .h1-p1{
@@ -133,6 +144,7 @@
         width: 483px stretch-none !important;
         height: 670px !important;
         overflow: hidden;
+        background-size: 483px 670px stretch-none;
         display: flex;
         align-items: center;
     }
