@@ -20,7 +20,7 @@
 }
 .title-bar{
     background-image: url(./Images/forestandmountains-1633031326824.png);
-    background-position: center;
+    background-position: center top;;
     background-size: 100% auto;
     background-repeat: no-repeat;
     width: 100%;
@@ -54,6 +54,11 @@
     color: white;
     background-color: rgb(255, 90, 95);
     font-weight: bold;
+}
+.btn-hover .btn:hover{
+    opacity: 90%;
+    bottom: 3px;
+    transition: top 0.2s ease-in;
 }
 .bg-image2{
     padding: 0px 350px;
@@ -125,12 +130,28 @@
 
   .impact{
     background-image: url("./Images/yearlyimpact-1642795680030.svg");
-    height: 32vw;
-    width: 99.1vw;
+    height: 615px;
+    width: 100%;
     overflow: hidden;
     background-repeat: no-repeat;
   }
 
+  .process{
+    background-image: url(./Images/ourprocess-1632947767075.webp);
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+  }
+  .process div span{
+    align-items: center;
+  }
+  .text-justify{
+    text-align: justify;
+  }
+  
 @media only screen and (min-width: 483px) {
     .cont{
         width: 100%;
@@ -140,11 +161,16 @@
         height: 738px;
         background-repeat: no-repeat;
     }
-    .title-bar{
-        width: 483px stretch-none !important;
+    .content{
+        width: 100% !important;
         height: 670px !important;
         overflow: hidden;
-        background-size: 483px 670px stretch-none;
+    }
+    .title-bar{
+        height: 660px !important;
+        background-position: center top;;
+        background-size: auto 100%;
+        overflow: hidden;
         display: flex;
         align-items: center;
     }
@@ -162,6 +188,11 @@
     .plant-tree{
         display: none !important;
     }
+    .impact{
+        height: 36vh;
+        width: 100%;
+        overflow: hidden;
+      }
   }
   @media(min-width: 576px) {
     .cont{
@@ -173,9 +204,15 @@
         height: 598px !important;
         background-repeat: no-repeat;
     }
+    .content{
+        width: 100% !important;
+        height: 570px !important;
+        overflow: hidden;
+    }
     .title-bar{
-        width: 576px stretch-none !important;
-        height: 598px !important;
+        height: 565px !important;
+        background-position: center top;;
+        background-size: auto 100%;
         overflow: hidden;
         display: flex;
         align-items: center;
@@ -195,6 +232,11 @@
     .plant-tree{
         display: none !important;
     }
+    .impact{
+        height: 333px;
+        width: 100%;
+        overflow: hidden;
+      }
   }
   @media(min-width: 768px) {
     .cont{
@@ -206,9 +248,15 @@
         height: auto !important;
         background-repeat: no-repeat;
     }
+    .content{
+        width: 100% !important;
+        height: 660px !important;
+        overflow: hidden;
+    }
     .title-bar{
-        width: 768px stretch-none !important;
         height: 662px !important;
+        background-position: center top;;
+        background-size: auto 100%;
         overflow: hidden;
         display: flex;
         align-items: center;
@@ -224,6 +272,11 @@
     .plant-tree{
         display: none !important;
     }
+    .impact{
+        height: 35.43vh;
+        width: 100%;
+        overflow: hidden;
+      }
   }
   @media(min-width: 992px) {
     .cont{
@@ -235,9 +288,16 @@
         height: 790px !important;
         background-repeat: no-repeat;
     }
+    .content{
+        width: 100% !important;
+        height: 700px !important;
+        overflow: hidden;
+    }
     .title-bar{
-        width: 100% stretch-none !important;
-        height: 790px !important;
+        width: 100%;
+        height: 700px !important;
+        background-position: center top;;
+        background-size: auto 100%;
         overflow: hidden;
         display: flex;
         align-items: center;
@@ -250,6 +310,11 @@
         font-size: 80px !important;
         line-height: 82px !important;
     }
+    .impact{
+        height: 34.84vh;
+        width: 100%;
+        overflow: hidden;
+      }
   }
   @media(min-width: 1200px) {
     .cont{
@@ -260,9 +325,16 @@
         height: 100% !important;
         background-repeat: no-repeat;
     }
+    .content{
+        width: 100% !important;
+        height: 700px !important;
+        overflow: hidden;
+    }
     .title-bar{
-        width: 1200px stretch-none !important;
-        height: 790px !important;
+        width: 100%;
+        height: 700px !important;
+        background-position: center;
+        background-size: 100% auto;
         overflow: hidden;
         display: flex;
         align-items: center;
@@ -275,6 +347,11 @@
         font-size: 80px !important;
         line-height: 82px !important;
     }
+    .impact{
+        height: 42.53vh;
+        width: 100%;
+        overflow: hidden;
+      }
   }
   @media(min-width: 1400px) {
     .cont{
@@ -285,9 +362,16 @@
         height: 150% !important;
         background-repeat: no-repeat;
     }
-    .title-bar{
+    .content{
         width: 100% !important;
         height: 738px !important;
+        overflow: hidden;
+    }
+    .title-bar{
+        width: 100%;
+        height: 738px !important;
+        background-position: center;
+        background-size: 100% auto;
         overflow: hidden;
         display: flex;
         align-items: center;
@@ -306,6 +390,11 @@
         background-size: cover;
         width: 100%;
         height: 103px;
+        overflow: hidden;
+    }
+    .impact{
+        height: 64vh;
+        width: 100%;
         overflow: hidden;
     }
 }
