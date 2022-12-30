@@ -135,7 +135,20 @@
     overflow: hidden;
     background-repeat: no-repeat;
   }
-
+  .btn2 .btn{
+    height: 45px;
+    width: 280px;
+    text-align: center;
+    color: #333333;
+    border: solid 2px #333333;
+    font-size: 15px;
+}
+.btn2 .btn:hover{
+    color: white;
+    background-color: #333333;
+    font-size: 16px;
+    transition: all 0.2s linear;
+}
   .process{
     background-image: url(./Images/ourprocess-1632947767075.webp);
     height: 400px;
@@ -151,6 +164,45 @@
   .text-justify{
     text-align: justify;
   }
+  /* .card-hide{
+    visibility: hidden;
+  } */
+
+  .card-title{
+    font-size: medium;
+    border: none;
+
+  }
+  .card-group i{
+    margin-top: auto;
+    font-size: 20px;
+    opacity: .25;
+  }
+  .card-group{
+    background-color: #fff;
+    margin-top: -10%;
+  }
+
+  .btn3 .btn{
+    height: 45px;
+    width: 180px;
+    text-align: center;
+    color: #04736b;
+    border: solid 2px #04736b;
+    font-size: 15px;
+}
+.btn3 .btn:hover{
+    color: white;
+    background-color: #03A196;
+    transition: all 0.2s linear;
+}
+.glide__arrows button{
+    background-color: rgba(255, 255, 255, 0.548);
+}
+.glide__arrows button:hover{
+    background-color: rgb(255, 255, 255);
+    transition: all 0.4s ease-in;
+}
   
 @media only screen and (min-width: 483px) {
     .cont{

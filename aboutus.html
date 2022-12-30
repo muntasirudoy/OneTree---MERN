@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./src/vendor/fontawesome-free-6.1.1-web/css/all.min.css">
     <link rel="stylesheet" href="./src/vendor/fontawesome-free-6.1.1-web/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
+
     <!-- MDB -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.css" rel="stylesheet"/>
   </head>
@@ -17,6 +21,8 @@
     <script src="./src/vendor/purecounter/purecounter.js"></script>
     <script src="./src/vendor/purecounter/purecounter_vanilla.js"></script>
     <script src="https://kit.fontawesome.com/042c0cb0c7.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
     <!-- MDB -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.js"></script>
 
@@ -117,65 +123,114 @@
     <div class="cont-fluid py-lg-5" style="background-color: #F7F8F9;">
       <div class="row d-flex justify-content-center g-0 my-4 impact">
         <div class="col-lg-5">
-            <div class="text-center py-lg-5 pt-4 pb-5 my-4 mx-4">
+            <div class="text-center btn2 py-lg-5 pt-4 pb-5 my-4 mx-4">
                 <h3 class="d-flex justify-content-center fs-2 fw-bold text-uppercase"><span>Our Impact over the Years</span></h3>
                 <p class="d-flex justify-content-center my-4" style="font-size: 1rem;"><span>We have planted <b>over 40 million trees in more than 47 countries</b> across the globe since 2014. In 2021, we <b>more than doubled our impact from 2020 - with 23.5 million trees!</b></span></p>
+                <a class="btn mt-2 fw-semibold font-uppercase" href="#" role="button">download 2021 report</a>
             </div>
         </div>
       </div>
     </div>
 
-    <div class="cont-fluid">
+    <div class="cont-fluid pb-5 border-bottom border-1">
       <div class="process my-5 d-flex justify-content-center align-items-center">
         <div class="fs-1 fw-bolder text-white text-center"><span class="text-uppercase">our process</span></div>
       </div>
+
+      <div class="card-hide d-flex justify-content-center p-5">
+        <div class="card-group col-8 shadow-5">
+        <div class="card shadow-none mb-3 mx-3">
+          <img src="./src/Images/pf-ea796831--impact.svg" class="card-img-top m-0" alt="...">
+          <div class="card shadow-none">
+            <p class="card-title text-uppercase text-center fs-6 fw-bolder m-0">you donate</p>
+            <p class="card-text text-uppercase text-center fs-6 m-0">on our website.</p>
+          </div>
+        </div>
+        <i class="fa-solid fa-arrow-right mb-4" aria-hidden="true"></i>
+        <div class="card shadow-none mb-3 mx-3">
+          <img src="./src/Images/pf-ea796831--impact.svg" class="card-img-top m-0" alt="...">
+          <div class="card shadow-none">
+            <p class="card-title text-uppercase text-center fs-6 fw-bolder m-0">you donate</p>
+            <p class="card-text text-uppercase text-center fs-6 m-0">on our website.</p>
+          </div>
+        </div>
+        <i class="fa-solid fa-arrow-right mb-4" aria-hidden="true"></i>
+        <div class="card shadow-none mb-3 mx-3">
+          <img src="./src/Images/pf-ea796831--impact.svg" class="card-img-top m-0" alt="...">
+          <div class="card shadow-none">
+            <p class="card-title text-uppercase text-center fs-6 m-0">you donate</p>
+            <p class="card-text text-uppercase text-center fs-6 fw-bolder m-0">on our website.</p>
+          </div>
+        </div>
+        <i class="fa-solid fa-arrow-right mb-4" aria-hidden="true"></i>
+        <div class="card shadow-none mb-3 mx-3">
+          <img src="./src/Images/pf-ea796831--impact.svg" class="card-img-top m-0" alt="...">
+          <div class="card shadow-none">
+            <p class="card-title text-uppercase text-center fs-6 fw-bolder m-0">you donate</p>
+            <p class="card-text text-uppercase text-center fs-6 m-0">on our website.</p>
+          </div>
+        </div>
+        <i class="fa-solid fa-arrow-right mb-4" aria-hidden="true"></i>
+        <div class="card shadow-none mb-3 mx-3">
+          <img src="./src/Images/pf-ea796831--impact.svg" class="card-img-top m-0" alt="...">
+          <div class="card shadow-none">
+            <p class="card-title text-uppercase text-center fs-6 m-0">you donate</p>
+            <p class="card-text text-uppercase text-center fs-6 fw-bolder m-0">on our website.</p>
+          </div>
+        </div>
+        <i class="fa-solid fa-arrow-right mb-4" aria-hidden="true"></i>
+        <div class="card shadow-none mb-3 mx-3">
+          <img src="./src/Images/pf-ea796831--impact.svg" class="card-img-top m-0" alt="...">
+          <div class="card shadow-none">
+            <p class="card-title text-uppercase text-center fs-6 m-0">you donate</p>
+            <p class="card-text text-uppercase text-center fs-6 fw-bolder m-0">on our website.</p>
+          </div>
+        </div>
+      </div>
+      </div>
     </div>
 
-    <div class="cont-fluid card-group col-8">
-      <div class="card">
-        <img src="./src/Images/pf-ea796831--impact.svg" class="card-img-top" alt="...">
-        <div class="card">
-          <h5 class="card-title text-uppercase text-center">you donate</h5>
-          <p class="card-text text-uppercase text-center">on our website.</p>
+    <div class="cont-fluid">
+      <div class="row g-0 d-flex justify-content-center align-items-center">
+        <div class="col-lg-4" style="height: 320px;">
+          <iframe class="w-100 h-100" src="https://www.youtube.com/embed/Y2qf5BTDq2w?start=0&autoplay=0&loop=0&mute=0&controls=0&enablejsapi=1" frameborder="0"></iframe>
         </div>
+        <div class="col-lg-4">
+          <div class="text-center2 btn3 py-lg-5 pt-4 pb-5 my-4 mx-4">
+              <h3 class="fs-1 fw-bold text-uppercase"><span>Together,<br>Planting a Forest</span></h3>
+              <p class="" style="font-size: 1rem;"><span>Since our establishment, we have been dedicated to making it easier for both individuals and businesses to <b>give back to the environment</b>, <b>create a healthier climate</b>, <b>protect biodiversity</b>, and<b> help reforestation efforts</b>.</span></p>
+              <p class="my-4" style="font-size: 1rem;"><span>With your support, we aid in <b>environmental conservation and restoration across the globe</b>!</span></p>
+              <a class="btn fw-semibold font-uppercase" href="#" role="button">plant a tree</a>
+          </div>
       </div>
-      <div class="card">
-        <img src="./src/Images/pf-ea796831--impact.svg" class="card-img-top" alt="...">
-        <div class="card">
-          <h5 class="card-title text-uppercase text-center">you donate</h5>
-          <p class="card-text text-uppercase text-center">on our website.</p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="./src/Images/pf-ea796831--impact.svg" class="card-img-top" alt="...">
-        <div class="card">
-          <h5 class="card-title text-uppercase text-center">you donate</h5>
-          <p class="card-text text-uppercase text-center">on our website.</p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="./src/Images/pf-ea796831--impact.svg" class="card-img-top" alt="...">
-        <div class="card">
-          <h5 class="text-uppercase text-center">you donate</h5>
-          <p class="text-uppercase text-center">on our website.</p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="./src/Images/pf-ea796831--impact.svg" class="card-img-top" alt="...">
-        <div class="card">
-          <h5 class="card-title text-uppercase text-center">you donate</h5>
-          <p class="card-text text-uppercase text-center">on our website.</p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="./src/Images/pf-ea796831--impact.svg" class="card-img-top" alt="...">
-        <div class="card">
-          <h5 class="card-title text-uppercase text-center">you donate</h5>
-          <p class="card-text text-uppercase text-center">on our website.</p>
-        </div>
       </div>
     </div>
 
+
+    <div class="cont-fluid">
+      <div class="glide">
+        <div data-glide-el="track" class="glide__track">
+          <ul class="glide__slides">
+            <div class="glide__slide position-relative">
+              <img src="./src/Images/climateaction-1632943103058.webp" alt="" class="w-100">
+              <div class="position-absolute">
+                <div class="text-white text-uppercase">we support</div>
+                <div class="text-white text-uppercase">quality projects</div>
+              </div>
+            </div>
+            <li class="glide__slide slide2"><img src="./src/Images/biodiversity-1632947944038.webp" alt="" class="w-100"></li>
+            <li class="glide__slide"><img src="./src/Images/localcommunities-1632942833540.webp" alt="" class="w-100"></li>
+          </ul>
+        </div>
+        <div class="glide__arrows" data-glide-el="controls">
+          <button class="glide__arrow glide__arrow--left rounded-circle border-0" data-glide-dir="<"><i class="fa-sharp fa-solid fa-angle-left text-black"></i></button>
+          <button class="glide__arrow glide__arrow--right rounded-circle border-0" data-glide-dir=">"><i class="fa-sharp fa-solid fa-angle-right text-black"></i></i></button>
+        </div>
+      </div>
+    </div>
+    
+
+    
 
 
     <script>
@@ -194,6 +249,8 @@ new PureCounter({
     currency: false,
     separator: false,
 });
+
+new Glide('.glide').mount()
 
     </script>
     
